@@ -15,11 +15,11 @@ youi-cli
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g youi-cli
+$ npm install -g ismezy-youi-cli
 $ youi-cli COMMAND
 running command...
 $ youi-cli (-v|--version|version)
-youi-cli/0.0.0 linux-x64 node-v12.14.1
+ismezy-youi-cli/0.0.1 linux-x64 node-v12.14.1
 $ youi-cli --help [COMMAND]
 USAGE
   $ youi-cli COMMAND
@@ -45,7 +45,7 @@ EXAMPLE
   $ youi-cli gencode model.yml
 ```
 
-_See code: [src/commands/gencode.ts](https://github.com/ismezy/youi-cli/blob/v0.0.0/src/commands/gencode.ts)_
+_See code: [src/commands/gencode.ts](https://github.com/ismezy/youi-cli/blob/v0.0.1/src/commands/gencode.ts)_
 
 ## `youi-cli hello [FILE]`
 
@@ -63,7 +63,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/ismezy/youi-cli/blob/v0.0.0/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/ismezy/youi-cli/blob/v0.0.1/src/commands/hello.ts)_
 
 ## `youi-cli help [COMMAND]`
 
