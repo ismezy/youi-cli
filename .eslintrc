@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "object-curly-spacing": [
+      0,
+      "always",
+      {
+        "objectsInObjects": false
+      }
+    ],
+    "no-console": "off"
+  },
+  "extends": [
+    "oclif",
+    "oclif-typescript"
+  ]
+}

@@ -1,0 +1,13 @@
+name: Codemap
+caption: 代码集
+pageQueryUrl: /api/codemap/getCodemaps,
+getUrl: '/api/codemap/getCodemap'
+saveUrl: '/api/codemap/saveCodemap'
+properties:
+- name: 'id'
+  caption: '主键'
+  isPrimaryKey: true
+- name: 'code'
+  caption: '编码'
+- name: 'caption'
+  caption: '描述'
