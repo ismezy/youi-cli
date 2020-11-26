@@ -25,7 +25,13 @@ export default class Gencode extends Command {
     const indexPage = renderCurdIndex(modelDefine)
     const formPage = renderCurdForm(modelDefine)
     fs.mkdirSync(modelDefine.name, { recursive: true })
-    fs.writeFileSync(`${modelDefine.name}/${modelDefine.name}Index.vue`, indexPage, 'utf8')
-    fs.writeFileSync(`${modelDefine.name}/${modelDefine.name}Form.vue`, formPage, 'utf8')
+    const indexPath = `${modelDefine.name}/${modelDefine.name}Index.vue`
+    const formPath = `${modelDefine.name}/${modelDefine.name}Form.vue`
+    if (!fs.existsSync(indexPath)) {
+      fs.writeFileSync(indexPath, indexPage, 'utf8')
+    }
+    if (!fs.existsSync(formPath)) {
+      fs.writeFileSync(formPath, formPage, 'utf8')
+    }
   }
 }

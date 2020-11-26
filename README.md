@@ -19,7 +19,7 @@ $ npm install -g ismezy-youi-cli
 $ youi-cli COMMAND
 running command...
 $ youi-cli (-v|--version|version)
-ismezy-youi-cli/0.0.1 linux-x64 node-v12.14.1
+ismezy-youi-cli/0.0.3 linux-x64 node-v12.14.1
 $ youi-cli --help [COMMAND]
 USAGE
   $ youi-cli COMMAND
@@ -29,7 +29,6 @@ USAGE
 # Commands
 <!-- commands -->
 * [`youi-cli $ youi-cli gencode <model.yml>`](#youi-cli--youi-cli-gencode-modelyml)
-* [`youi-cli hello [FILE]`](#youi-cli-hello-file)
 * [`youi-cli help [COMMAND]`](#youi-cli-help-command)
 
 ## `youi-cli $ youi-cli gencode <model.yml>`
@@ -45,25 +44,7 @@ EXAMPLE
   $ youi-cli gencode model.yml
 ```
 
-_See code: [src/commands/gencode.ts](https://github.com/ismezy/youi-cli/blob/v0.0.1/src/commands/gencode.ts)_
-
-## `youi-cli hello [FILE]`
-
-```
-USAGE
-  $ youi-cli hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ youi-cli hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/ismezy/youi-cli/blob/v0.0.1/src/commands/hello.ts)_
+_See code: [src/commands/gencode.ts](https://github.com/ismezy/youi-cli/blob/v0.0.3/src/commands/gencode.ts)_
 
 ## `youi-cli help [COMMAND]`
 
